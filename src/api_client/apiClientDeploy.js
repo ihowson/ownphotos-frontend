@@ -20,10 +20,10 @@ function listener() {
  }
 }
 
-export var serverAddress = 'http://ownphotos'
+export var serverAddress = 'http://localhost:8851'
 
 export var Server = axios.create({
-  baseURL: 'http://ownphotos/api/',
+  baseURL: 'http://localhost:8851/api/',
   headers: {
     'Content-Type': 'application/json'
   },
