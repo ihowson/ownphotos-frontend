@@ -20,10 +20,10 @@ function listener() {
  }
 }
 
-export var serverAddress = 'http://localhost:8851'
+export var serverAddress = 'http://photos-api.mutexlabs.com'
 
 export var Server = axios.create({
-  baseURL: 'http://localhost:8851/api/',
+  baseURL: 'http://photos-api.mutexlabs.com/api/',
   headers: {
     'Content-Type': 'application/json'
   },
